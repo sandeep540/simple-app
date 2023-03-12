@@ -36,6 +36,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/sandeep540/sample-app:latest
+          tags: ghcr.io/sandeep540/simple-app:latest
           file: ./src/main/docker/Dockerfile.native
           context: .
